@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <View
+            android:id="@+id/iconBackground"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_pill_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivIconoComida"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/desayuno"
+            app:layout_constraintStart_toStartOf="@id/iconBackground"
+            app:layout_constraintEnd_toEndOf="@id/iconBackground"
+            app:layout_constraintTop_toTopOf="@id/iconBackground"
+            app:layout_constraintBottom_toBottomOf="@id/iconBackground" />
+
+        <TextView
+            android:id="@+id/tvTituloComida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Desayuno"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#466B95"
+            app:layout_constraintStart_toEndOf="@id/iconBackground"
+            app:layout_constraintTop_toTopOf="@id/iconBackground" />
+
+        <TextView
+            android:id="@+id/tvCaloriasComida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 cal"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_pill_duracion"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvTituloComida"
+            app:layout_constraintBottom_toBottomOf="@id/tvTituloComida" />
+
+        <TextView
+            android:id="@+id/tvDescripcionComida"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Añade alimentos a tu desayuno"
+            android:textSize="14sp"
+            android:textColor="#64748B"
+            android:lineSpacingExtra="2dp"
+            app:layout_constraintStart_toStartOf="@id/tvTituloComida"
+            app:layout_constraintEnd_toStartOf="@id/btnLimpiarComida"
+            app:layout_constraintTop_toBottomOf="@id/tvTituloComida" />
+
+        <ImageButton
+            android:id="@+id/btnLimpiarComida"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="#EF4444"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

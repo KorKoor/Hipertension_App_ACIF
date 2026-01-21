@@ -1,0 +1,51 @@
+com.example.apphipertension.app-play-services-basement-18.9.0-0 C:\Users\carlo\.gradle\caches\8.11.1\transforms\00df0104d66f09623d180f0f8c2e4b95\transformed\play-services-basement-18.9.0\res
+com.example.apphipertension.app-tracing-1.2.0-1 C:\Users\carlo\.gradle\caches\8.11.1\transforms\00f0023104efec6962f63d97a1c27947\transformed\tracing-1.2.0\res
+com.example.apphipertension.app-emoji2-1.3.0-2 C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\res
+com.example.apphipertension.app-datastore-preferences-core-release-3 C:\Users\carlo\.gradle\caches\8.11.1\transforms\0dbafd9a535813288b3073edfb0f7f46\transformed\datastore-preferences-core-release\res
+com.example.apphipertension.app-appcompat-1.7.1-4 C:\Users\carlo\.gradle\caches\8.11.1\transforms\15f80a779aaaf6b98ab14be4cd3c8e47\transformed\appcompat-1.7.1\res
+com.example.apphipertension.app-lifecycle-livedata-2.6.2-5 C:\Users\carlo\.gradle\caches\8.11.1\transforms\1a5c681789b073c2913eb049a8bcfc70\transformed\lifecycle-livedata-2.6.2\res
+com.example.apphipertension.app-firebase-common-22.0.1-6 C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\res
+com.example.apphipertension.app-datastore-core-release-7 C:\Users\carlo\.gradle\caches\8.11.1\transforms\1dafcf72dcb4723e3130808a32287ad4\transformed\datastore-core-release\res
+com.example.apphipertension.app-material-1.12.0-8 C:\Users\carlo\.gradle\caches\8.11.1\transforms\276e840c3bc5be2078b03e6e6ab789c5\transformed\material-1.12.0\res
+com.example.apphipertension.app-shimmer-0.5.0-9 C:\Users\carlo\.gradle\caches\8.11.1\transforms\27c9d59c5b00a2453e59a9eb4388a232\transformed\shimmer-0.5.0\res
+com.example.apphipertension.app-startup-runtime-1.1.1-10 C:\Users\carlo\.gradle\caches\8.11.1\transforms\2babd09ce74af4f5ec3f426bfd510eb0\transformed\startup-runtime-1.1.1\res
+com.example.apphipertension.app-viewpager2-1.0.0-11 C:\Users\carlo\.gradle\caches\8.11.1\transforms\3dcc75dd642373023ecfb7f0b0c24f6d\transformed\viewpager2-1.0.0\res
+com.example.apphipertension.app-drawerlayout-1.1.1-12 C:\Users\carlo\.gradle\caches\8.11.1\transforms\3e6e017417b992a5d2a477e2e6b4cfac\transformed\drawerlayout-1.1.1\res
+com.example.apphipertension.app-emoji2-views-helper-1.3.0-13 C:\Users\carlo\.gradle\caches\8.11.1\transforms\434733aa7b6296251c122901577fd4f7\transformed\emoji2-views-helper-1.3.0\res
+com.example.apphipertension.app-core-common-2.0.3-14 C:\Users\carlo\.gradle\caches\8.11.1\transforms\49ff898c597452a7563311c241933286\transformed\core-common-2.0.3\res
+com.example.apphipertension.app-lifecycle-livedata-core-2.6.2-15 C:\Users\carlo\.gradle\caches\8.11.1\transforms\542d1dc8785eb70d4974c713e2fe66cc\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.apphipertension.app-profileinstaller-1.4.0-16 C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\res
+com.example.apphipertension.app-core-1.16.0-17 C:\Users\carlo\.gradle\caches\8.11.1\transforms\6ee01b18013aec2509026aa80b624356\transformed\core-1.16.0\res
+com.example.apphipertension.app-browser-1.4.0-18 C:\Users\carlo\.gradle\caches\8.11.1\transforms\6f2569493e155497622335b32244b2a6\transformed\browser-1.4.0\res
+com.example.apphipertension.app-savedstate-1.2.1-19 C:\Users\carlo\.gradle\caches\8.11.1\transforms\74c2329a55441a9bc55a1d1b437933d2\transformed\savedstate-1.2.1\res
+com.example.apphipertension.app-appcompat-resources-1.7.1-20 C:\Users\carlo\.gradle\caches\8.11.1\transforms\794d4f619eb52559f8ef58d7c87a66a6\transformed\appcompat-resources-1.7.1\res
+com.example.apphipertension.app-lifecycle-process-2.6.2-21 C:\Users\carlo\.gradle\caches\8.11.1\transforms\79faf4f91ceb6d22186be141e3c867a4\transformed\lifecycle-process-2.6.2\res
+com.example.apphipertension.app-fragment-1.5.4-22 C:\Users\carlo\.gradle\caches\8.11.1\transforms\7a692becc8204bdf3fe3e1bec9904cc6\transformed\fragment-1.5.4\res
+com.example.apphipertension.app-core-ktx-1.16.0-23 C:\Users\carlo\.gradle\caches\8.11.1\transforms\82c510d4edb6ccf3d22100adb6714514\transformed\core-ktx-1.16.0\res
+com.example.apphipertension.app-lifecycle-runtime-2.6.2-24 C:\Users\carlo\.gradle\caches\8.11.1\transforms\83eb6c99a43156147587189049c128af\transformed\lifecycle-runtime-2.6.2\res
+com.example.apphipertension.app-annotation-experimental-1.4.1-25 C:\Users\carlo\.gradle\caches\8.11.1\transforms\8808a3c8aef74b522dffe5b7074d434e\transformed\annotation-experimental-1.4.1\res
+com.example.apphipertension.app-circleimageview-3.1.0-26 C:\Users\carlo\.gradle\caches\8.11.1\transforms\8b7208b39b0b9f3b4dc1287567de7f75\transformed\circleimageview-3.1.0\res
+com.example.apphipertension.app-coordinatorlayout-1.1.0-27 C:\Users\carlo\.gradle\caches\8.11.1\transforms\8eb8a774e26eb85d0527786f567e84a0\transformed\coordinatorlayout-1.1.0\res
+com.example.apphipertension.app-constraintlayout-2.2.1-28 C:\Users\carlo\.gradle\caches\8.11.1\transforms\a1d1446ffc904eb1df01865d91ef55b9\transformed\constraintlayout-2.2.1\res
+com.example.apphipertension.app-play-services-base-18.9.0-29 C:\Users\carlo\.gradle\caches\8.11.1\transforms\a85573d8605ada401c86dfbfb4386250\transformed\play-services-base-18.9.0\res
+com.example.apphipertension.app-datastore-release-30 C:\Users\carlo\.gradle\caches\8.11.1\transforms\b2fd2d771c445dea88247dece914e38c\transformed\datastore-release\res
+com.example.apphipertension.app-core-runtime-2.2.0-31 C:\Users\carlo\.gradle\caches\8.11.1\transforms\b704cd0491ba7b1b1d7365ce6799ecaf\transformed\core-runtime-2.2.0\res
+com.example.apphipertension.app-lifecycle-viewmodel-savedstate-2.6.2-32 C:\Users\carlo\.gradle\caches\8.11.1\transforms\bd8da5955563f97dc256c80f8b71fce9\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.apphipertension.app-datastore-preferences-release-33 C:\Users\carlo\.gradle\caches\8.11.1\transforms\d42421f6b298ace22fb74aabcad65ce2\transformed\datastore-preferences-release\res
+com.example.apphipertension.app-lifecycle-viewmodel-2.6.2-34 C:\Users\carlo\.gradle\caches\8.11.1\transforms\ddd265f32e2adc9534e33677f302ff3d\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.apphipertension.app-core-viewtree-1.0.0-35 C:\Users\carlo\.gradle\caches\8.11.1\transforms\e29db802dca5f188b686a3f90fa145f3\transformed\core-viewtree-1.0.0\res
+com.example.apphipertension.app-credentials-play-services-auth-1.2.0-rc01-36 C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\res
+com.example.apphipertension.app-play-services-auth-20.7.0-37 C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\res
+com.example.apphipertension.app-activity-1.10.1-38 C:\Users\carlo\.gradle\caches\8.11.1\transforms\f339d6e3938ef9f058ac8f1c800b0a18\transformed\activity-1.10.1\res
+com.example.apphipertension.app-credentials-1.2.0-rc01-39 C:\Users\carlo\.gradle\caches\8.11.1\transforms\f37952a0bc33f9df4c8fb9895f9b6b74\transformed\credentials-1.2.0-rc01\res
+com.example.apphipertension.app-transition-1.5.0-40 C:\Users\carlo\.gradle\caches\8.11.1\transforms\f74a873f29d7ba56327b9b186e481e76\transformed\transition-1.5.0\res
+com.example.apphipertension.app-recyclerview-1.1.0-41 C:\Users\carlo\.gradle\caches\8.11.1\transforms\f8f19a10ddf825e603ca834c31af0e55\transformed\recyclerview-1.1.0\res
+com.example.apphipertension.app-cardview-1.0.0-42 C:\Users\carlo\.gradle\caches\8.11.1\transforms\fcbc954617e2d892c7466236831c33dc\transformed\cardview-1.0.0\res
+com.example.apphipertension.app-pngs-43 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\build\generated\res\pngs\debug
+com.example.apphipertension.app-res-44 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\build\generated\res\processDebugGoogleServices
+com.example.apphipertension.app-resValues-45 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\build\generated\res\resValues\debug
+com.example.apphipertension.app-packageDebugResources-46 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.apphipertension.app-packageDebugResources-47 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.apphipertension.app-debug-48 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.apphipertension.app-debug-49 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\debug\res
+com.example.apphipertension.app-main-50 C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\res

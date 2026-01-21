@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_bg_field.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\bg_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_med.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\med.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_calendar_measurement.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_measurement.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_food_plate.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_food_plate.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_analysis.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\analysis.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_sangrado.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_sangrado.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_tab_background_active.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\tab_background_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_saltarcuerda.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\saltarcuerda.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_dieta.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_dieta.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_bg_circle_indicator.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\bg_circle_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_tab_background.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\tab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_main.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\main.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_placeholder_rect.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\placeholder_rect.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_sintoma.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_sintoma.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_anadir_alimento.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_anadir_alimento.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_placeholder_round.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\placeholder_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_mareos.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_mareos.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_streak.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\streak.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ejerciciocasa.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ejerciciocasa.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_medicine.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\medicine.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_zumba.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\zumba.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_historial_actividad.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_historial_actividad.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_calendar.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_calendar.xml"
+    },
+    {
+        "merged": "com.example.apphipertension.app-release-48:/layout_dialog_editar_presion.xml.flat",
+        "source": "com.example.apphipertension.app-main-49:/layout/dialog_editar_presion.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\color_bottom_nav_icon_color.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\color\\bottom_nav_icon_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_background.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_analysis.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_analysis.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_trotar.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\trotar.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_iconologin.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\iconologin.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_dialog_add_pressure.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_add_pressure.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_medicion.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_medicion.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_calendar_dieta.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_dieta.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_calendar.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_rounded_white_button.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\rounded_white_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_sintoma_guardado.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_sintoma_guardado.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_otro.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_otro.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_fatiga.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_fatiga.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_bien.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_bien.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_more.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\more.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_time.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\time.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_dot_gris.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\dot_gris.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\color_nav_item_color.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\color\\nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_history_sintomas.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_history_sintomas.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_zumbido.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_zumbido.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_dialog_guardar_alimento.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_guardar_alimento.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_calendar_sintoma.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_sintoma.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_add_circle.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_add_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_actividad.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_actividad.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_comida_card.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_comida_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_sintomas.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_sintomas.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_colacion.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\colacion.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_dolor_pecho.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_dolor_pecho.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_yoga.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\yoga.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_dificultad_respirar.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_dificultad_respirar.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_dolor_cabeza.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_dolor_cabeza.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_desayuno.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\desayuno.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_gimnasio.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\gimnasio.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_bg_sintoma_selected.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\bg_sintoma_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_bg_sintoma_selector.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\bg_sintoma_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_actividadfisica.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\actividadfisica.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_sintomas.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\sintomas.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_vision_borrosa.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_vision_borrosa.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_dialog_comida_personalizada.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_comida_personalizada.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_bg_pill_duracion.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\bg_pill_duracion.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_main_calendar.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\main_calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_medicine.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_medicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_prueba.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\prueba.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_edittext_background.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\edittext_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_calendar_medicine.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_medicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_cena.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\cena.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_calendar_actividad.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_actividad.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_bg_sintoma_unselected.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\bg_sintoma_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_history_actividad_fisica.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_history_actividad_fisica.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_historial_sintoma.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_historial_sintoma.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_medicate.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_medicate.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_bg_pill_light.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\bg_pill_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_circle_bg.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\circle_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_alimento_busqueda.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_alimento_busqueda.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_caminar.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\caminar.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_nauseas.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_nauseas.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_dialog_add_medicine.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_add_medicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_actividad_fisica.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_actividad_fisica.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_measurement.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_measurement.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_spinning.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\spinning.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_comida.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\comida.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_pilates.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\pilates.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_dialog_zoom_image.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_zoom_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_nadar.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\nadar.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_dot_azul.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\dot_azul.xml"
+    },
+    {
+        "merged": "com.example.apphipertension.app-release-48:/layout_activity_medicate.xml.flat",
+        "source": "com.example.apphipertension.app-main-49:/layout/activity_medicate.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_meds.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_meds.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_bottom_sheet_more.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\bottom_sheet_more.xml"
+    },
+    {
+        "merged": "com.example.apphipertension.app-release-48:/layout_activity_main.xml.flat",
+        "source": "com.example.apphipertension.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_access_time.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_access_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_ic_vomitos.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\ic_vomitos.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\drawable_dieta.png.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\drawable\\dieta.png"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-release-48:\\layout_item_medicamento.xml.flat",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_medicamento.xml"
+    }
+]

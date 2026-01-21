@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F8"
+    tools:context=".HistoryActividadFisica">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarHistorial"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:title="Historial de Actividad"
+        app:titleTextColor="#466B95"
+        app:navigationIcon="@drawable/ic_arrow_back" />
+
+    <View
+        android:id="@+id/headerBackground"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/toolbarHistorial" />
+
+    <TextView
+        android:id="@+id/tvLabelRecientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tus actividades recientes"
+        android:textColor="#466B95"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbarHistorial"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSublabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sigue así, la constancia es clave."
+        android:textColor="#94A3B8"
+        android:textSize="13sp"
+        app:layout_constraintTop_toBottomOf="@id/tvLabelRecientes"
+        app:layout_constraintStart_toStartOf="@id/tvLabelRecientes" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistorialActividad"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="32dp"
+        app:layout_constraintTop_toBottomOf="@id/tvSublabel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:listitem="@layout/item_historial_actividad"/>
+
+    <LinearLayout
+        android:id="@+id/emptyStateContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/toolbarHistorial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_add"
+            app:tint="#D1D5DB"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvNoHistorial"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="Aún no tienes actividades registradas.\n¡Es un buen momento para empezar!"
+            android:textColor="#94A3B8"
+            android:textSize="16sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

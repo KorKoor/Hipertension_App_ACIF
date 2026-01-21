@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva Comida"
+        android:textColor="#466B95"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registra un alimento personalizado"
+        android:textColor="#94A3B8"
+        android:textSize="14sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del platillo"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#64748B"
+        android:layout_marginBottom="6dp"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/etNombrePersonalizado"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Ej. Tacos de guisado"
+        android:background="@drawable/bg_field"
+        android:paddingHorizontal="16dp"
+        android:inputType="textCapSentences"
+        android:textColor="#1E293B"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorías totales"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#64748B"
+        android:layout_marginBottom="6dp"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/etCaloriasPersonalizadas"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:hint="Ej. 450"
+        android:background="@drawable/bg_field"
+        android:paddingHorizontal="16dp"
+        android:inputType="numberDecimal"
+        android:textColor="#1E293B"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoría de comida"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#64748B"
+        android:layout_marginBottom="6dp"
+        android:textAllCaps="true"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@drawable/bg_field"
+        android:layout_marginBottom="16dp">
+
+        <Spinner
+            android:id="@+id/spinnerCategoriaPersonalizada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="8dp"
+            android:spinnerMode="dropdown" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Los datos se guardarán en tu historial diario."
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:fontStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

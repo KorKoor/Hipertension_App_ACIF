@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nueva Medición"
+                android:textColor="#466B95"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha"
+                        android:textSize="12sp"
+                        android:textColor="#64748B"
+                        android:layout_marginBottom="4dp"/>
+
+                    <EditText
+                        android:id="@+id/editFecha"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:background="@drawable/bg_field"
+                        android:drawableStart="@drawable/ic_calendar"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:paddingHorizontal="12dp"
+                        android:hint="yyyy-MM-dd"
+                        android:textSize="14sp"
+                        android:textColor="#466B95"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hora"
+                        android:textSize="12sp"
+                        android:textColor="#64748B"
+                        android:layout_marginBottom="4dp"/>
+
+                    <EditText
+                        android:id="@+id/editHora"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:background="@drawable/bg_field"
+                        android:drawableStart="@drawable/ic_access_time"
+                        android:drawablePadding="10dp"
+                        android:focusable="false"
+                        android:paddingHorizontal="12dp"
+                        android:hint="HH:mm"
+                        android:textSize="14sp"
+                        android:textColor="#466B95"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1F5F9"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <EditText
+                    android:id="@+id/editSistolica"
+                    android:layout_width="0dp"
+                    android:layout_height="54dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/bg_field"
+                    android:hint="Sistólica"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:paddingHorizontal="12dp"/>
+
+                <EditText
+                    android:id="@+id/editDiastolica"
+                    android:layout_width="0dp"
+                    android:layout_height="54dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_field"
+                    android:hint="Diastólica"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:paddingHorizontal="12dp"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editPulso"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/bg_field"
+                android:hint="Pulso (LPM)"
+                android:gravity="start|center_vertical"
+                android:paddingHorizontal="16dp"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/editNota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_field"
+                android:hint="Nota adicional (opcional)"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:gravity="top"
+                android:padding="16dp"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

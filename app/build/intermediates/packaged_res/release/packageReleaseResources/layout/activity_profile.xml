@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    tools:context=".Profile">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNav">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="40dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#466B95"
+                android:padding="32dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileImage"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="#FFFFFF"
+                    app:civ_border_width="3dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp"
+                    app:layout_constraintTop_toTopOf="@id/profileImage"
+                    app:layout_constraintBottom_toBottomOf="@id/profileImage"
+                    app:layout_constraintStart_toEndOf="@id/profileImage"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <TextView
+                        android:id="@+id/profileName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:id="@+id/tvCorreo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="correo@ejemplo.com"
+                        android:textColor="#BDD6FF"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="12dp">
+
+                        <TextView
+                            android:id="@+id/changeName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Editar nombre"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:paddingEnd="16dp"/>
+
+                        <TextView
+                            android:id="@+id/changePhoto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cambiar foto"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:text="Composición Corporal"
+                        android:textStyle="bold"
+                        android:textColor="#466B95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginEnd="8dp">
+                            <TextView android:text="Peso (kg)" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+                            <EditText android:id="@+id/etPeso" android:layout_width="match_parent" android:layout_height="48dp" android:background="@drawable/bg_field" android:inputType="numberDecimal" android:paddingHorizontal="12dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:text="Altura (m)" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+                            <EditText android:id="@+id/etAltura" android:layout_width="match_parent" android:layout_height="48dp" android:background="@drawable/bg_field" android:inputType="numberDecimal" android:paddingHorizontal="12dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView android:text="IMC" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="4dp"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                        <EditText android:id="@+id/etIMC" android:layout_width="0dp" android:layout_height="48dp" android:layout_weight="1" android:background="@drawable/bg_field" android:paddingHorizontal="12dp" android:hint="IMC calculado" android:enabled="false"/>
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnCalcularIMC" style="@style/Widget.MaterialComponents.Button.TextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CALCULAR" android:textColor="#466B95" android:textStyle="bold"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="24dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+                    <TextView android:text="Datos Médicos" android:textStyle="bold" android:textColor="#466B95" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp"/>
+
+                    <TextView android:text="Sexo biológico" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+                    <RadioGroup android:id="@+id/rgSexo" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                        <RadioButton android:id="@+id/rbMujer" android:text="Mujer" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <RadioButton android:id="@+id/rbHombre" android:text="Hombre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24dp"/>
+                    </RadioGroup>
+
+                    <TextView android:text="Fecha de nacimiento" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+                    <EditText android:id="@+id/etFechaNacimiento" android:layout_width="match_parent" android:layout_height="48dp" android:background="@drawable/bg_field" android:drawableStart="@drawable/ic_calendar" android:drawablePadding="12dp" android:paddingHorizontal="12dp" android:focusable="false" android:clickable="true"/>
+                    <TextView android:id="@+id/tvEdad" android:text="Edad: 0 años" android:textColor="#64748B" android:textSize="12sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="16dp"/>
+
+                    <TextView android:text="Próxima cita médica" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+                    <EditText android:id="@+id/etFechaDiagnostico" android:layout_width="match_parent" android:layout_height="48dp" android:background="@drawable/bg_field" android:drawableStart="@drawable/ic_access_time" android:drawablePadding="12dp" android:paddingHorizontal="12dp" android:focusable="false" android:clickable="true"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                app:cardCornerRadius="24dp">
+
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
+
+                    <TextView android:id="@+id/tvEditarMetaCalorias" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Meta de Calorías: Fija tu meta" android:textColor="#466B95" android:textStyle="bold" android:padding="16dp" android:background="@drawable/bg_pill_light" android:layout_marginBottom="20dp"/>
+
+                    <TextView android:text="Alimentos a Evitar" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+                    <com.google.android.material.chip.ChipGroup android:id="@+id/cgAlimentosPredefinidos" android:layout_width="match_parent" android:layout_height="wrap_content" app:chipSpacingVertical="4dp"/>
+                    <com.google.android.material.chip.ChipGroup android:id="@+id/cgAlimentosPersonalizados" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="20dp">
+                        <EditText android:id="@+id/etAlimentoPersonalizado" android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:background="@drawable/bg_field" android:hint="Añadir alimento" android:paddingHorizontal="12dp" android:textSize="14sp"/>
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnAgregarAlimentoPer" android:layout_width="54dp" android:layout_height="54dp" android:text="+" android:layout_marginStart="8dp" app:backgroundTint="#466B95" app:cornerRadius="12dp"/>
+                    </LinearLayout>
+
+                    <TextView android:text="Padecimientos" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+                    <com.google.android.material.chip.ChipGroup android:id="@+id/cgPadecimientosPredefinidos" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <com.google.android.material.chip.ChipGroup android:id="@+id/cgPadecimientosPersonalizados" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="20dp">
+                        <EditText android:id="@+id/etPadecimientoPersonalizado" android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:background="@drawable/bg_field" android:hint="Padecimiento" android:paddingHorizontal="12dp" android:textSize="14sp"/>
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnAgregarPadecimientoPer" android:layout_width="54dp" android:layout_height="54dp" android:text="+" android:layout_marginStart="8dp" app:backgroundTint="#466B95" app:cornerRadius="12dp"/>
+                    </LinearLayout>
+
+                    <TextView android:text="Medicamentos" android:textSize="12sp" android:textColor="#64748B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+                    <com.google.android.material.chip.ChipGroup android:id="@+id/cgMedicamentosPersonalizados" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" />
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                        <EditText android:id="@+id/etMedicamentoPersonalizado" android:layout_width="0dp" android:layout_weight="1" android:layout_height="48dp" android:background="@drawable/bg_field" android:hint="Añadir medicina" android:paddingHorizontal="12dp" android:textSize="14sp"/>
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnAgregarMedicamentoPer" android:layout_width="54dp" android:layout_height="54dp" android:text="+" android:layout_marginStart="8dp" app:backgroundTint="#466B95" app:cornerRadius="12dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveProfile"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="32dp"
+                android:text="Guardar Cambios"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp"
+                app:backgroundTint="#466B95"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogout"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:text="Cerrar sesión"
+                android:textColor="#EF4444"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:elevation="24dp"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="#466B95"
+        app:itemTextColor="#466B95"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

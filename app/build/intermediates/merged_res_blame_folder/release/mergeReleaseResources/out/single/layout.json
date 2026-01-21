@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_history_actividad_fisica.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_history_actividad_fisica.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_calendar_medicine.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_medicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\bottom_sheet_more.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\bottom_sheet_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_calendar_measurement.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_measurement.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\dialog_guardar_alimento.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_guardar_alimento.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_medicine.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_medicine.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_sintoma.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_sintoma.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_medicion.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_medicion.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_profile.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "com.example.apphipertension.app-mergeReleaseResources-47:/layout/activity_medicate.xml",
+        "source": "com.example.apphipertension.app-main-49:/layout/activity_medicate.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_calendar.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_dieta.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_dieta.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_calendar_actividad.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_actividad.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_calendar_sintoma.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_sintoma.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_historial_sintoma.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_historial_sintoma.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_sintoma_guardado.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_sintoma_guardado.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_history_sintomas.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_history_sintomas.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_medicamento.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_medicamento.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_anadir_alimento.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_anadir_alimento.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_comida_card.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_comida_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_measurement.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_measurement.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\dialog_add_medicine.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_add_medicine.xml"
+    },
+    {
+        "merged": "com.example.apphipertension.app-mergeReleaseResources-47:/layout/activity_main.xml",
+        "source": "com.example.apphipertension.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.apphipertension.app-mergeReleaseResources-47:/layout/dialog_editar_presion.xml",
+        "source": "com.example.apphipertension.app-main-49:/layout/dialog_editar_presion.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_historial_actividad.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_historial_actividad.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_actividad.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_actividad.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_medicate.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_medicate.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\dialog_zoom_image.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_zoom_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_sintomas.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_sintomas.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_calendar_dieta.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_calendar_dieta.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\dialog_comida_personalizada.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_comida_personalizada.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\dialog_add_pressure.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\dialog_add_pressure.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\item_alimento_busqueda.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\item_alimento_busqueda.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_analysis.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_analysis.xml"
+    },
+    {
+        "merged": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-mergeReleaseResources-47:\\layout\\activity_actividad_fisica.xml",
+        "source": "C:\\Users\\carlo\\.gradle\\daemon\\8.11.1\\com.example.apphipertension.app-main-49:\\layout\\activity_actividad_fisica.xml"
+    }
+]

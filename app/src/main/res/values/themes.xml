@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AppHipertension" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#466B95</item>
+        <item name="colorSecondaryContainer">#E2E8F0</item>
+        <item name="colorOnSecondaryContainer">#466B95</item>
+        <item name="android:statusBarColor">#466B95</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="itemRippleColor">#F1F5F9</item>
+    </style>
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#E2E8F0</item> <item name="marginHorizontal">12dp</item>
+    </style>
+    <style name="Theme.AppHipertension" parent="Base.Theme.AppHipertension" />
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar presión arterial"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etSistolica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sistólica (mmHg)"
+            android:inputType="number"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text" />
+
+        <EditText
+            android:id="@+id/etDiastolica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Diastólica (mmHg)"
+            android:inputType="number"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etPulso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pulso (LPM)"
+            android:inputType="number"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etHora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hora (ej. 08:30)"
+            android:inputType="text"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota"
+            android:inputType="textCapSentences"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias_comida">
+        <item>Desayuno</item>
+        <item>Comida</item>
+        <item>Cena</item>
+        <item>Colación</item>
+    </string-array>
+    <string-array name="frecuencias_medicina">
+        <item>Cada 4 hrs</item>
+        <item>Cada 6 hrs</item>
+        <item>Cada 8 hrs</item>
+        <item>Cada 12 hrs</item>
+        <item>Cada 24 hrs</item>
+    </string-array>
+    <string-array name="unidades_medicina">
+        <item>mg</item>
+        <item>g</item>
+        <item>mcg</item>
+        <item>ml</item>
+        <item>UI</item>
+        <item>gotas</item>
+    </string-array>
+    <color name="accent">#60A5FA</color>
+    <color name="background">#F8FAFC</color>
+    <color name="black">#1E293B</color>
+    <color name="divider">#F1F5F9</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="primary">#466B95</color>
+    <color name="primary_dark">#2E4A6D</color>
+    <color name="primary_light">#BDD6FF</color>
+    <color name="status_error">#EF4444</color>
+    <color name="status_info">#3B82F6</color>
+    <color name="status_success">#10B981</color>
+    <color name="status_warning">#F59E0B</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Hipertension ACIF</string>
+    <string name="correo_ejemplo">correo@ejemplo.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1063495828839</string>
+    <string name="google_api_key" translatable="false">AIzaSyDvh0PDGpOii89tek8YJe2WnuxnqkY0Imo</string>
+    <string name="google_app_id" translatable="false">1:1063495828839:android:d8c9154803389ae5899bc2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDvh0PDGpOii89tek8YJe2WnuxnqkY0Imo</string>
+    <string name="google_storage_bucket" translatable="false">hipertensionapp-9458e.firebasestorage.app</string>
+    <string name="header_greeting">¡Buen día!</string>
+    <string name="profile_image_desc">Imagen de perfil del usuario</string>
+    <string name="project_id" translatable="false">hipertensionapp-9458e</string>
+    <string name="sintoma_dificultad_respirar">Ícono de dificultad para respirar</string>
+    <string name="sintoma_dolor_cabeza">Ícono de dolor de cabeza</string>
+    <string name="sintoma_dolor_pecho">Ícono de dolor en el pecho</string>
+    <string name="sintoma_estoy_bien">Ícono de “estoy bien”</string>
+    <string name="sintoma_fatiga">Ícono de fatiga</string>
+    <string name="sintoma_mareos">Ícono de mareos</string>
+    <string name="sintoma_nauseas">Ícono de náuseas</string>
+    <string name="sintoma_otro">Ícono de síntoma personalizado</string>
+    <string name="sintoma_sangrado">Ícono de sangrado nasal</string>
+    <string name="sintoma_vision_borrosa">Ícono de visión borrosa</string>
+    <string name="sintoma_vomitos">Ícono de vómitos</string>
+    <string name="sintoma_zumbido">Ícono de zumbido en oídos</string>
+    <string name="streak_icon_desc">Ícono de racha de días consecutivos</string>
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#E2E8F0</item> <item name="marginHorizontal">12dp</item>
+    </style>
+    <style name="Base.Theme.AppHipertension" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#466B95</item>
+        <item name="colorSecondaryContainer">#E2E8F0</item>
+        <item name="colorOnSecondaryContainer">#466B95</item>
+        <item name="android:statusBarColor">#466B95</item>
+
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+    <style name="Theme.AppHipertension" parent="Base.Theme.AppHipertension"/>
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="itemRippleColor">#F1F5F9</item>
+    </style>
+</resources>

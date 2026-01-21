@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white"
+        app:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:title="Mis Síntomas"
+        app:titleTextColor="#466B95"
+        app:navigationIcon="@drawable/ic_arrow_back" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/timeCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="2dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvSintomasTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Cuándo ocurrieron?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#466B95" />
+
+            <TextView
+                android:id="@+id/tvLabelFechaHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selecciona el momento exacto para un registro preciso."
+                android:textSize="14sp"
+                android:textColor="#64748B"
+                android:layout_marginTop="4dp" />
+
+            <LinearLayout
+                android:id="@+id/layoutFechaHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSeleccionarFecha"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="0dp"
+                    android:layout_height="54dp"
+                    android:layout_weight="1"
+                    android:text="Fecha"
+                    app:icon="@drawable/ic_calendar"
+                    android:textColor="#466B95"
+                    app:cornerRadius="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#F1F5F9" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSeleccionarHora"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="0dp"
+                    android:layout_height="54dp"
+                    android:layout_weight="1"
+                    android:text="Hora"
+                    app:icon="@drawable/ic_access_time"
+                    android:textColor="#466B95"
+                    app:cornerRadius="12dp"
+                    android:backgroundTint="#F1F5F9" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="⚠️ Por favor, selecciona al menos un síntoma."
+        android:textColor="#EF4444"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/timeCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSintomas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingHorizontal="12dp"
+        app:layout_constraintTop_toBottomOf="@id/tvError"
+        app:layout_constraintBottom_toTopOf="@id/etNotaSintoma"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etNotaSintoma"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_field"
+        android:hint="Añade una nota u observación..."
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:minLines="2"
+        android:padding="16dp"
+        android:textSize="14sp"
+        android:textColor="#1E293B"
+        app:layout_constraintBottom_toTopOf="@+id/btnGuardarSintomas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGuardarSintomas"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="12dp"
+        android:text="Guardar Síntomas"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="16dp"
+        app:backgroundTint="#466B95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnVerHistorial" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVerHistorial"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Ver Historial"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="16dp"
+        app:strokeColor="#466B95"
+        android:textColor="#466B95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

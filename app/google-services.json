@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1063495828839",
+    "project_id": "hipertensionapp-9458e",
+    "storage_bucket": "hipertensionapp-9458e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063495828839:android:d8c9154803389ae5899bc2",
+        "android_client_info": {
+          "package_name": "com.example.apphipertension"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvh0PDGpOii89tek8YJe2WnuxnqkY0Imo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

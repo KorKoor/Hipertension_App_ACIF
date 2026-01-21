@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <View
+            android:id="@+id/indicatorColor"
+            android:layout_width="5dp"
+            android:layout_height="50dp"
+            android:background="#4CAF50"
+            android:layout_marginEnd="16dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFechaHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#94A3B8"
+                android:textAllCaps="true"
+                android:letterSpacing="0.05"
+                tools:text="19 ENE 2026 • 02:20 PM" />
+
+            <TextView
+                android:id="@+id/tvPresion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#1E293B"
+                tools:text="120/80 mmHg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="2dp">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/streak"
+                    app:tint="#EF4444"
+                    android:layout_marginEnd="4dp"/>
+
+                <TextView
+                    android:id="@+id/tvPulso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="#64748B"
+                    tools:text="72 LPM" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvNota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#F8FAFC"
+                android:padding="8dp"
+                android:textSize="12sp"
+                android:fontStyle="italic"
+                android:textColor="#94A3B8"
+                android:visibility="gone"
+                tools:visibility="visible"
+                tools:text="Nota: Reposo de 5 minutos antes." />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/analysis"
+            app:tint="#CBD5E1" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

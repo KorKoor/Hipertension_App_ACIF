@@ -1,0 +1,512 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.apphipertension"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:5:5-76
+11-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.READ_CALENDAR" />
+12-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:6:5-72
+12-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:6:22-69
+13    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+13-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:7:5-73
+13-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:7:22-70
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+15-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:10:22-63
+17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+17-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:12:5-68
+18-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:12:22-65
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:5-67
+19-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:25:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:26:22-76
+21    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+21-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1c83df6bf29cc28f9320cd300b76c6c9\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:5-98
+21-->[com.google.android.recaptcha:recaptcha:18.6.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1c83df6bf29cc28f9320cd300b76c6c9\transformed\recaptcha-18.6.1\AndroidManifest.xml:9:22-95
+22
+23    <permission
+23-->[androidx.core:core:1.16.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\6ee01b18013aec2509026aa80b624356\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+24        android:name="com.example.apphipertension.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.16.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\6ee01b18013aec2509026aa80b624356\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.16.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\6ee01b18013aec2509026aa80b624356\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.example.apphipertension.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.16.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\6ee01b18013aec2509026aa80b624356\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.16.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\6ee01b18013aec2509026aa80b624356\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:13:5-102:19
+30        android:name="com.example.apphipertension.MyApplication"
+30-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:15:9-38
+31        android:allowBackup="true"
+31-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:14:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.16.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\6ee01b18013aec2509026aa80b624356\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+33        android:dataExtractionRules="@xml/data_extraction_rules"
+33-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:16:9-65
+34        android:debuggable="true"
+35        android:enableOnBackInvokedCallback="true"
+35-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:17:9-51
+36        android:extractNativeLibs="false"
+37        android:fullBackupContent="@xml/backup_rules"
+37-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:18:9-54
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:19:9-43
+39        android:label="@string/app_name"
+39-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:20:9-41
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:21:9-54
+41        android:supportsRtl="true"
+41-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:22:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.AppHipertension" >
+43-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:23:9-53
+44        <activity
+44-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:25:9-27:40
+45            android:name="com.example.apphipertension.HistoryActividadFisica"
+45-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:26:13-51
+46            android:exported="false" />
+46-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:27:13-37
+47        <activity
+47-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:28:9-30:40
+48            android:name="com.example.apphipertension.ActividadFisica"
+48-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:29:13-44
+49            android:exported="false" />
+49-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:30:13-37
+50        <activity
+50-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:31:9-33:40
+51            android:name="com.example.apphipertension.AnadirAlimento"
+51-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:32:13-43
+52            android:exported="false" />
+52-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:33:13-37
+53        <activity
+53-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:34:9-36:40
+54            android:name="com.example.apphipertension.Dieta"
+54-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:35:13-34
+55            android:exported="false" />
+55-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:36:13-37
+56        <activity
+56-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:37:9-39:40
+57            android:name="com.example.apphipertension.HistorySintomasActivity"
+57-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:38:13-52
+58            android:exported="false" />
+58-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:39:13-37
+59        <activity
+59-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:40:9-42:40
+60            android:name="com.example.apphipertension.Sintomas"
+60-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:41:13-37
+61            android:exported="false" />
+61-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:42:13-37
+62        <activity
+62-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:43:9-45:40
+63            android:name="com.example.apphipertension.HistoryActivity"
+63-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:44:13-44
+64            android:exported="false" />
+64-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:45:13-37
+65        <activity
+65-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:46:9-48:40
+66            android:name="com.example.apphipertension.Profile"
+66-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:47:13-36
+67            android:exported="false" />
+67-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:48:13-37
+68        <activity
+68-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:49:9-51:40
+69            android:name="com.example.apphipertension.Analysis"
+69-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:50:13-37
+70            android:exported="false" />
+70-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:51:13-37
+71        <activity
+71-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:52:9-54:40
+72            android:name="com.example.apphipertension.Calendar"
+72-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:53:13-37
+73            android:exported="false" />
+73-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:54:13-37
+74        <activity
+74-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:55:9-57:40
+75            android:name="com.example.apphipertension.Medicate"
+75-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:56:13-37
+76            android:exported="false" />
+76-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:57:13-37
+77        <activity
+77-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:58:9-60:40
+78            android:name="com.example.apphipertension.Register"
+78-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:59:13-37
+79            android:exported="false" />
+79-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:60:13-37
+80        <activity
+80-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:61:9-69:20
+81            android:name="com.example.apphipertension.Login"
+81-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:62:13-34
+82            android:exported="true" >
+82-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:63:13-36
+83            <intent-filter>
+83-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:64:13-68:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:65:17-69
+84-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:65:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:67:17-77
+86-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:67:27-74
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:70:9-72:39
+90            android:name="com.example.apphipertension.MainActivity"
+90-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:71:13-41
+91            android:exported="true" />
+91-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:72:13-36
+92
+93        <provider
+93-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:73:9-81:20
+94            android:name="androidx.core.content.FileProvider"
+94-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:74:13-62
+95            android:authorities="com.example.apphipertension.fileprovider"
+95-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:75:13-75
+96            android:exported="false"
+96-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:76:13-37
+97            android:grantUriPermissions="true" >
+97-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:77:13-47
+98            <meta-data
+98-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:78:13-80:58
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:79:17-67
+100                android:resource="@xml/provider_paths" />
+100-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:80:17-55
+101        </provider>
+102        <!-- RECEPTOR PARA LA ALARMA DIARIA -->
+103        <receiver
+103-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:83:9-85:38
+104            android:name="com.example.apphipertension.DailyTipReceiver"
+104-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:84:13-45
+105            android:enabled="true" />
+105-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:85:13-35
+106
+107        <!-- RECEPTOR PARA REINICIO (BOOT) -->
+108        <receiver
+108-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:88:9-95:20
+109            android:name="com.example.apphipertension.BootReceiver"
+109-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:89:13-41
+110            android:enabled="true"
+110-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:90:13-35
+111            android:exported="true" >
+111-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:91:13-36
+112            <intent-filter>
+112-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:92:13-94:29
+113                <action android:name="android.intent.action.BOOT_COMPLETED" />
+113-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:93:17-79
+113-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:93:25-76
+114            </intent-filter>
+115        </receiver>
+116        <receiver
+116-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:96:9-98:38
+117            android:name="com.example.apphipertension.ReminderReceiver"
+117-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:97:13-45
+118            android:enabled="true" />
+118-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:98:13-35
+119        <receiver
+119-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:99:9-101:37
+120            android:name="com.example.apphipertension.AlarmReceiver"
+120-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:100:13-42
+121            android:enabled="true" />
+121-->C:\Users\carlo\Downloads\App Hipertension\App-Control-Hipertension-main\app\src\main\AndroidManifest.xml:101:13-35
+122
+123        <service
+123-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\carlo\.gradle\caches\8.11.1\transforms\5dde12d7b4795154c4596001ad1f7bd9\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:9:9-15:19
+124            android:name="com.google.firebase.components.ComponentDiscoveryService"
+124-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\carlo\.gradle\caches\8.11.1\transforms\5dde12d7b4795154c4596001ad1f7bd9\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:10:13-84
+125            android:directBootAware="true"
+125-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:32:13-43
+126            android:exported="false" >
+126-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\carlo\.gradle\caches\8.11.1\transforms\5dde12d7b4795154c4596001ad1f7bd9\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:11:13-37
+127            <meta-data
+127-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\carlo\.gradle\caches\8.11.1\transforms\5dde12d7b4795154c4596001ad1f7bd9\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:12:13-14:85
+128                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+128-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\carlo\.gradle\caches\8.11.1\transforms\5dde12d7b4795154c4596001ad1f7bd9\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:13:17-129
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-firestore-ktx:25.1.4] C:\Users\carlo\.gradle\caches\8.11.1\transforms\5dde12d7b4795154c4596001ad1f7bd9\transformed\firebase-firestore-ktx-25.1.4\AndroidManifest.xml:14:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:69:13-71:85
+131                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+131-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:70:17-109
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:71:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1a398d64fa50a1cf1ce05ff7e11fee9e\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+134                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+134-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1a398d64fa50a1cf1ce05ff7e11fee9e\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1a398d64fa50a1cf1ce05ff7e11fee9e\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-firestore:26.1.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\d2e14576f6a5c08fd985855ba5da14e4\transformed\firebase-firestore-26.1.0\AndroidManifest.xml:17:13-19:85
+137                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+137-->[com.google.firebase:firebase-firestore:26.1.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\d2e14576f6a5c08fd985855ba5da14e4\transformed\firebase-firestore-26.1.0\AndroidManifest.xml:18:17-122
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-firestore:26.1.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\d2e14576f6a5c08fd985855ba5da14e4\transformed\firebase-firestore-26.1.0\AndroidManifest.xml:19:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-firestore:26.1.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\d2e14576f6a5c08fd985855ba5da14e4\transformed\firebase-firestore-26.1.0\AndroidManifest.xml:20:13-22:85
+140                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+140-->[com.google.firebase:firebase-firestore:26.1.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\d2e14576f6a5c08fd985855ba5da14e4\transformed\firebase-firestore-26.1.0\AndroidManifest.xml:21:17-111
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-firestore:26.1.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\d2e14576f6a5c08fd985855ba5da14e4\transformed\firebase-firestore-26.1.0\AndroidManifest.xml:22:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:35:13-37:85
+143                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+143-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:36:17-109
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:37:17-82
+145        </service>
+146
+147        <activity
+147-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:29:9-46:20
+148            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+148-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:30:13-80
+149            android:excludeFromRecents="true"
+149-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:31:13-46
+150            android:exported="true"
+150-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:32:13-36
+151            android:launchMode="singleTask"
+151-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:33:13-44
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+152-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:34:13-72
+153            <intent-filter>
+153-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:35:13-45:29
+154                <action android:name="android.intent.action.VIEW" />
+154-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:36:17-69
+154-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:36:25-66
+155
+156                <category android:name="android.intent.category.DEFAULT" />
+156-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:17-76
+156-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:27-73
+157                <category android:name="android.intent.category.BROWSABLE" />
+157-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:39:17-78
+157-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:39:27-75
+158
+159                <data
+159-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:41:17-44:51
+160                    android:host="firebase.auth"
+160-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:42:21-49
+161                    android:path="/"
+161-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:43:21-37
+162                    android:scheme="genericidp" />
+162-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:44:21-48
+163            </intent-filter>
+164        </activity>
+165        <activity
+165-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:47:9-64:20
+166            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+166-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:48:13-79
+167            android:excludeFromRecents="true"
+167-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:49:13-46
+168            android:exported="true"
+168-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:50:13-36
+169            android:launchMode="singleTask"
+169-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:51:13-44
+170            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+170-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:52:13-72
+171            <intent-filter>
+171-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:53:13-63:29
+172                <action android:name="android.intent.action.VIEW" />
+172-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:36:17-69
+172-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:36:25-66
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:17-76
+174-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:38:27-73
+175                <category android:name="android.intent.category.BROWSABLE" />
+175-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:39:17-78
+175-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:39:27-75
+176
+177                <data
+177-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:41:17-44:51
+178                    android:host="firebase.auth"
+178-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:42:21-49
+179                    android:path="/"
+179-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:43:21-37
+180                    android:scheme="recaptcha" />
+180-->[com.google.firebase:firebase-auth:24.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\eef784a5811ffea99725eae90d8e0b39\transformed\firebase-auth-24.0.1\AndroidManifest.xml:44:21-48
+181            </intent-filter>
+182        </activity>
+183
+184        <provider
+184-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:23:9-28:39
+185            android:name="com.google.firebase.provider.FirebaseInitProvider"
+185-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:24:13-77
+186            android:authorities="com.example.apphipertension.firebaseinitprovider"
+186-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:25:13-72
+187            android:directBootAware="true"
+187-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:26:13-43
+188            android:exported="false"
+188-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:27:13-37
+189            android:initOrder="100" />
+189-->[com.google.firebase:firebase-common:22.0.1] C:\Users\carlo\.gradle\caches\8.11.1\transforms\1b185d600cb0b3b209cc68fa60c04e3f\transformed\firebase-common-22.0.1\AndroidManifest.xml:28:13-36
+190
+191        <service
+191-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+192            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+192-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+193            android:enabled="true"
+193-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+194            android:exported="false" >
+194-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+195            <meta-data
+195-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+196                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+196-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+197                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+197-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+198        </service>
+199
+200        <activity
+200-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+201            android:name="androidx.credentials.playservices.HiddenActivity"
+201-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+202            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+202-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+203            android:enabled="true"
+203-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+204            android:exported="false"
+204-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+205            android:fitsSystemWindows="true"
+205-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+206            android:theme="@style/Theme.Hidden" >
+206-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\carlo\.gradle\caches\8.11.1\transforms\ed8232504363864270f0c53027772c26\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+207        </activity>
+208        <activity
+208-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+209            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+209-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+210            android:excludeFromRecents="true"
+210-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+213        <!--
+214            Service handling Google Sign-In user revocation. For apps that do not integrate with
+215            Google Sign-In, this service will never be started.
+216        -->
+217        <service
+217-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+218            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+218-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+219            android:exported="true"
+219-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+220            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+220-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+221            android:visibleToInstantApps="true" />
+221-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\f29e34f026b8487fc0fa72238d94ee6c\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+222
+223        <activity
+223-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\a85573d8605ada401c86dfbfb4386250\transformed\play-services-base-18.9.0\AndroidManifest.xml:20:9-22:45
+224            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+224-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\a85573d8605ada401c86dfbfb4386250\transformed\play-services-base-18.9.0\AndroidManifest.xml:20:19-85
+225            android:exported="false"
+225-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\a85573d8605ada401c86dfbfb4386250\transformed\play-services-base-18.9.0\AndroidManifest.xml:22:19-43
+226            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+226-->[com.google.android.gms:play-services-base:18.9.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\a85573d8605ada401c86dfbfb4386250\transformed\play-services-base-18.9.0\AndroidManifest.xml:21:19-78
+227
+228        <provider
+228-->[androidx.emoji2:emoji2:1.3.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+229            android:name="androidx.startup.InitializationProvider"
+229-->[androidx.emoji2:emoji2:1.3.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+230            android:authorities="com.example.apphipertension.androidx-startup"
+230-->[androidx.emoji2:emoji2:1.3.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+231            android:exported="false" >
+231-->[androidx.emoji2:emoji2:1.3.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+232            <meta-data
+232-->[androidx.emoji2:emoji2:1.3.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+233                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+233-->[androidx.emoji2:emoji2:1.3.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+234                android:value="androidx.startup" />
+234-->[androidx.emoji2:emoji2:1.3.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\07139e5058e767b2e64131fe7b77fcca\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+235            <meta-data
+235-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\carlo\.gradle\caches\8.11.1\transforms\79faf4f91ceb6d22186be141e3c867a4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+236                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+236-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\carlo\.gradle\caches\8.11.1\transforms\79faf4f91ceb6d22186be141e3c867a4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+237                android:value="androidx.startup" />
+237-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\carlo\.gradle\caches\8.11.1\transforms\79faf4f91ceb6d22186be141e3c867a4\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+238            <meta-data
+238-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+239                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+239-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+240                android:value="androidx.startup" />
+240-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+241        </provider>
+242
+243        <meta-data
+243-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\00df0104d66f09623d180f0f8c2e4b95\transformed\play-services-basement-18.9.0\AndroidManifest.xml:21:9-23:69
+244            android:name="com.google.android.gms.version"
+244-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\00df0104d66f09623d180f0f8c2e4b95\transformed\play-services-basement-18.9.0\AndroidManifest.xml:22:13-58
+245            android:value="@integer/google_play_services_version" />
+245-->[com.google.android.gms:play-services-basement:18.9.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\00df0104d66f09623d180f0f8c2e4b95\transformed\play-services-basement-18.9.0\AndroidManifest.xml:23:13-66
+246
+247        <receiver
+247-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+248            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+248-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+249            android:directBootAware="false"
+249-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+250            android:enabled="true"
+250-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+251            android:exported="true"
+251-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+252            android:permission="android.permission.DUMP" >
+252-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+253            <intent-filter>
+253-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+254                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+254-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+255            </intent-filter>
+256            <intent-filter>
+256-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+257                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+257-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+258            </intent-filter>
+259            <intent-filter>
+259-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+260                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+260-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+261            </intent-filter>
+262            <intent-filter>
+262-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+263                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+263-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+263-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\carlo\.gradle\caches\8.11.1\transforms\63fa8ff86d6a12b8ad491a391fd29291\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+264            </intent-filter>
+265        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+266        <activity
+266-->[com.google.android.play:core-common:2.0.3] C:\Users\carlo\.gradle\caches\8.11.1\transforms\49ff898c597452a7563311c241933286\transformed\core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+267            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+267-->[com.google.android.play:core-common:2.0.3] C:\Users\carlo\.gradle\caches\8.11.1\transforms\49ff898c597452a7563311c241933286\transformed\core-common-2.0.3\AndroidManifest.xml:15:13-93
+268            android:exported="false"
+268-->[com.google.android.play:core-common:2.0.3] C:\Users\carlo\.gradle\caches\8.11.1\transforms\49ff898c597452a7563311c241933286\transformed\core-common-2.0.3\AndroidManifest.xml:16:13-37
+269            android:stateNotNeeded="true"
+269-->[com.google.android.play:core-common:2.0.3] C:\Users\carlo\.gradle\caches\8.11.1\transforms\49ff898c597452a7563311c241933286\transformed\core-common-2.0.3\AndroidManifest.xml:17:13-42
+270            android:theme="@style/Theme.PlayCore.Transparent" />
+270-->[com.google.android.play:core-common:2.0.3] C:\Users\carlo\.gradle\caches\8.11.1\transforms\49ff898c597452a7563311c241933286\transformed\core-common-2.0.3\AndroidManifest.xml:18:13-62
+271    </application>
+272
+273</manifest>
